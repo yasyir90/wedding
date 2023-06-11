@@ -1,0 +1,44 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Great+Vibes&display=swap');
+
+/* containt hero */
+
+.heroImage{
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(#302c2c88,#302c2c66), url('../../src/assets/hero-image.jpg'); ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    opacity: 0.9;
+    scale: 0.9;
+    transition: 0.5s;
+    align-items: center;
+}
+.heroImage:hover{
+    scale: 1;
+    opacity: 1;
+}
+
+.titleHero{
+    text-align: center;
+    transform: translateY(-200px);
+    font-size: 1.4em;
+    color: aliceblue;
+    font-family: 'Dancing Script', cursive;
+}
+
+.nameHero{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.4em;
+    transform: translateY(130px);
+}
+
+.dateHero{
+    text-align: center;
+    transform: translateY(240px);
+}

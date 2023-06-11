@@ -1,0 +1,90 @@
+/* import font  */
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.titleInfo{
+    text-align: center;
+    font-size: 1rem ;
+    font-family: 'Staatliches', cursive;
+    border-bottom:  2px solid #302c2c;
+    margin: 10px;
+}
+
+.imageMale{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(#302c2c99,#302c2c88),url(../../src/assets/male.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    opacity: 0.9;
+}
+.imageMale:hover{
+    opacity: 1;
+}
+
+.femaleImg{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(#302c2c99,#302c2c88),url(../../src/assets/female.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.religionInfo{
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Staatliches', cursive;
+}
+
+.bornInfo{
+    text-align:center;
+    margin-top: 5px;
+    font-family: 'Staatliches', cursive;
+}
+
+/* parent */
+
+.fatherMaleIMg{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(#302c2c99,#302c2c88),url(../../src/assets/fatherMale.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.MotherMaleIMg{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(#302c2c99,#302c2c88),url(../../src/assets/motherMale.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.fatherFemaleIMg{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(#302c2c99,#302c2c88),url(../../src/assets/fatherFemale.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.MotherFemaleIMg{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(#302c2c99,#302c2c88),url(../../src/assets/motherFemale.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
