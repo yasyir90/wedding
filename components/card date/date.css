@@ -1,0 +1,72 @@
+/* import font  */
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+.containerDate{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+
+.akad{
+    width: 40%;
+    height: 250px;
+    background: #a6a6a6;
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.resepsi{
+    width: 40%;
+    height: 250px;
+    background: #a6a6a6;
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleDate{
+    text-align: center;
+    transform: translateY(-50px);
+    font-family: 'Staatliches', cursive;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
+.DateM{
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5rem;
+}
+
+.hoursDate{
+    text-align: center;
+    font-size: 1rem;
+    transform: translateY(40px);
+}
+
+
+@media screen and (max-width: 600px){
+    .containerDate{
+        display: block;
+    }
+    .akad{
+        width: 80%;
+        height: 250px;
+        margin: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .resepsi{
+        width: 80%;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
