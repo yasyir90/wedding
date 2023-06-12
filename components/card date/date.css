@@ -1,5 +1,5 @@
 /* import font  */
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 
 .containerDate{
@@ -33,15 +33,16 @@
 .titleDate{
     text-align: center;
     transform: translateY(-50px);
-    font-family: 'Staatliches', cursive;
+    font-family: 'Inter', sans-serif;
     font-size: 1rem;
     color: whitesmoke;
 }
 
 .DateM{
     text-align: center;
-    font-family: 'Staatliches', cursive;
+    font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
+    font-weight: 800;
 }
 
 .hoursDate{
